@@ -1,2 +1,0 @@
-check if x works like wq
-added new line
