@@ -1,0 +1,7 @@
+# Useless system files on macOS
+.DS_Store
+# The file containing environment variables 
+.env
+venv/
+# Ignore IDE specific files
+.idea/
