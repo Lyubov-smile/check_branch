@@ -12,6 +12,8 @@ def getValue():
     except ValueError as v:
         print(v)
         return 0, 0, 0
+    except:
+        print("Another exception")
     finally:
         print("finally run before return")
 
