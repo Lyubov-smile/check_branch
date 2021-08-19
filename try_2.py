@@ -5,17 +5,17 @@ def getValue():
     try:
         x = int(x)
         y = int(y)
-        return x, y
+        return x, y, x/y
     except ZeroDivisionError as z:
         print(z)
-        return 0, 0
+        return 0, 0, 0
     except ValueError as v:
         print(v)
-        return 0, 0
+        return 0, 0, 0
     finally:
         print("finally run before return")
 
 
-x, y = getValue()
-print(x, y)
+x, y, res = getValue()
+print(x, y, res)
 
